@@ -1,0 +1,61 @@
+{
+  "name": "vercel-ai-agents",
+  "version": "1.0.0",
+  "description": "Advanced multi-agent conversational AI system built with Vercel AI SDK v3",
+  "author": "Obed Vargas Villarreal <obed@obeskay.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/obedvargasvillarreal/vercel-ai-agents.git"
+  },
+  "homepage": "https://github.com/obedvargasvillarreal/vercel-ai-agents#readme",
+  "bugs": {
+    "url": "https://github.com/obedvargasvillarreal/vercel-ai-agents/issues"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^2.0.59",
+    "@pinecone-database/pinecone": "^6.1.2",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@vercel/kv": "^1.0.1",
+    "@vercel/postgres": "^0.5.1",
+    "ai": "^3.0.23",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "framer-motion": "^11.0.3",
+    "lucide-react": "^0.309.0",
+    "next": "15.5.4",
+    "openai": "^4.24.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0",
+    "sonner": "^1.3.1",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.24.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/pg": "^8.15.6",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.17",
+    "dotenv": "^17.2.3",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "15.5.4",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

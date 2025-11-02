@@ -1,0 +1,29 @@
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS
+.DS_Store
+# Security - Never commit these files
+.env
+.env.local
+.env.production
+.env.development
+*.key
+*.pem
+secrets.json
+config/secrets.*
+.secret
+credentials.*
+api-keys.*
+*.credentials
+auth.json
